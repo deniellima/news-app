@@ -1,10 +1,10 @@
 # Dependences
 
 1. Tailwind css
-npx expo install nativewind@^4.0.1 react-native-reanimated tailwindcss
+´´´npx expo install nativewind@^4.0.1 react-native-reanimated tailwindcss´´´
 
 2. Expo-router
-npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+'''npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar'''
 npx expo install react-native-web react-dom
 
 3. React web 
