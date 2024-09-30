@@ -1,5 +1,5 @@
 import { ImageBackground, Text, TouchableOpacity, View } from 'react-native';
-import { styles } from './styles';
+import { styles } from './home/styles';
 import { PreSets } from '@/styles/preSets';
 import { StepperHome } from '@/components/stepper.home';
 

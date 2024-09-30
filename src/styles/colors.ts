@@ -8,8 +8,8 @@ export const colors = {
 
     // Error
     danger: '#B23636',
-    warning: '#E5AC00',
-    seccess: '#408040',
+    warning: '#FFC619',
+    seccess: '#00BF00',
     info: '#3689B2',
 
     // Neutral

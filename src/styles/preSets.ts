@@ -10,6 +10,10 @@ export const PreSets = StyleSheet.create({
         justifyContent: 'center',
         gap: 16,
     },
+
+    spacer: {
+        flex: 1,
+    },
   
     // Title ------------------------------------
 

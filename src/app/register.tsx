@@ -1,6 +1,6 @@
 import { View, Text, Pressable, TouchableOpacity, ImageBackground } from 'react-native';
 import { Feather } from '@expo/vector-icons';
-import { styles } from './styles';
+import { styles } from './register/styles';
 import { PreSets } from '@/styles/preSets';
 import { colors } from '@/styles/colors';
 import { StepperRegister } from '@/components/stepper.register';
@@ -20,13 +20,13 @@ export function Register() {
                 <Text style={PreSets.h1w}>Seja bem vindo!</Text>
             </ImageBackground>
 
-            <View style={styles.card}>
-                <View style={styles.detail}/>
+            <div className='flex-1 bg-zinc-50 dark:bg-zinc-950 overflow-scroll'>
+                {/* <View style={styles.detail}/> */}
 
                 <View style={styles.content}>
                     <StepperRegister /> 
                 </View>
-            </View> 
+            </div> 
         </View>
   );
 }

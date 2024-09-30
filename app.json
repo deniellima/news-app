@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "your-app-scheme",
     "name": "news-app",
     "slug": "news-app",
     "version": "1.0.0",
@@ -21,10 +22,12 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
     "plugins": [
-      "expo-font"
+      "expo-font",
+      "expo-router"
     ]
   }
 }

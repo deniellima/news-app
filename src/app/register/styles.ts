@@ -31,17 +31,16 @@ export const styles = StyleSheet.create({
         backgroundColor: colors.white,
         flex: 2,
         width: '100%',
+        overflow: 'scroll',
         borderTopLeftRadius: 12,
         borderTopRightRadius: 12,
-        overflow: 'hidden',
-        paddingVertical: 24,
+        padding: 24,
         alignItems: 'center',
     },
     
 
     content: {
         width: '100%',
-        paddingHorizontal: 24,
         gap: 16,
     },
 

@@ -1,7 +1,7 @@
 import { View, Text, TextInput, Pressable, TouchableOpacity, ImageBackground } from 'react-native';
 import { useState } from 'react';
 import { Feather } from '@expo/vector-icons';
-import { styles } from './styles';
+import { styles } from './login/styles';
 import { PreSets } from '@/styles/preSets';
 import { colors } from '@/styles/colors';
 
